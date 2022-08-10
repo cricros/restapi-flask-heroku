@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Flask heroku"
+    return "Flask heroku v2"
 
 
 if __name__ == '__main__':

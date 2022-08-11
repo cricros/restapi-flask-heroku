@@ -41,9 +41,9 @@ La estructura que debes seguir, para poder dicha petición es la siguiente
 	ejem: https://rest-api-flask-deploy.herokuapp.com/pokedex/kanto -> retorna una respuesta JSON 
 
 ##### Para las solicitudes POST
-Las solicitudes de tipo son compatibles tanto en el localhost como en Heroku. Sin embargo, este tipo de solicitudes es necesario realizarlas desde el RESTClient. 
->http://127.0.0.1:5000/[endpoint]
->https://rest-api-flask-deploy.herokuapp.com/[endpoint]
+Las solicitudes de tipo son compatibles tanto en el localhost como en Heroku. Sin embargo, este tipo de solicitudes es necesario realizarlas desde el RESTClient. <br>
+>http://127.0.0.1:5000/[endpoint] <br>
+>https://rest-api-flask-deploy.herokuapp.com/[endpoint] 
 
 ##### Lista de endpoint disponibles para su consumo
 - /all - GET

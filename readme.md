@@ -70,4 +70,4 @@ En caso de que se decida probar la RESTAPI desde un localhost, solo deberemos se
 
 1. Para poder deployar nuestro proyecto en heroku primero debemos loguearnos, en este caso vamos a utilizar la consola de git, ya que nos permite realizar comandos bash en la misma. 
 
-[![](qwe)](https://ibb.co/wyCyXcS)
+https://ibb.co/wyCyXcS

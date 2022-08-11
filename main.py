@@ -96,7 +96,10 @@ def pokemonTypeGET(nametype):
         "game_indices":resultJson['game_indices']
     })
 
-
+def handle_error_404(error):
+    return "<h1>No existe...</h1>"
     
 if __name__ == '__main__':
     app.run(debug= True)
+    app.register_error_handler(404, handle_error_404)
+    

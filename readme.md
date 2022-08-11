@@ -50,3 +50,24 @@ Las solicitudes de tipo son compatibles tanto en el localhost como en Heroku. Si
 - /pokedex - GET y POST
 - /pokemon GET y POST
 - /type GET y POST
+
+## Instalación local
+En caso de que se decida probar la RESTAPI desde un localhost, solo deberemos seguir las siguientes indicaciones:
+
+1. Copiar el repositorio con el siguiente comando
+
+ >git clone https://github.com/cricros/restapi-flask-heroku.git
+
+	Nota: recuerda que el repositorio se va copiar en la ruta actual en la que te encuentras. Si requieres una ruta en especifico, primero colocate en ella y posteriormente ejecuta el comando con git.
+
+2. Una vez con el repositorio descargado, abra su editor de codigo para posteriormente abrir la consola de python e instale las librerias necesarias ejecutando el siguiente comando dentro de la consola de python. 
+
+ >pip install -r requirements.txt
+ 
+3. Terminada la instalación de las librerias necesarias puede ejecutar el archivo main.py desde el editor de texto. Una vez ejecutado se genera la dirección en donde se está ejecutando nuestro localhost. 
+
+##Deploy en Heroku
+
+1. Para poder deployar nuestro proyecto en heroku primero debemos loguearnos, en este caso vamos a utilizar la consola de git, ya que nos permite realizar comandos bash en la misma. 
+
+[![](qwe)](https://ibb.co/wyCyXcS)

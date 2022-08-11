@@ -66,7 +66,7 @@ En caso de que se decida probar la RESTAPI desde un localhost, solo deberemos se
  
 3. Terminada la instalación de las librerias necesarias puede ejecutar el archivo main.py desde el editor de texto. Una vez ejecutado se genera la dirección en donde se está ejecutando nuestro localhost. 
 
-##Deploy en Heroku
+## Deploy en Heroku
 
 1. Para poder deployar nuestro proyecto en heroku primero debemos loguearnos, en este caso vamos a utilizar la consola de git, ya que nos permite realizar comandos bash en la misma. 
 

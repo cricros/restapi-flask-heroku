@@ -36,7 +36,7 @@ Se generaron 4 endpoints que son complatibles con un RESTClient, las peticiones 
 Las solicitudes de tipo son compatibles tanto en el localhost como en Heroku. Además, de que pueden ser realizadas desde el mismo navegador como desde Postman. 
 La estructura que debes seguir, para poder dicha petición es la siguiente
 >http://127.0.0.1:5000/[endpoint]/[parametrosolicitado]<br>
-	ejem: http://127.0.0.1:5000/pokedex/kanto -> retorna una respuesta JSON 
+	ejem: http://127.0.0.1:5000/pokedex/kanto -> retorna una respuesta JSON <br>
 >https://rest-api-flask-deploy.herokuapp.com/pokedex<br>
 	ejem: https://rest-api-flask-deploy.herokuapp.com/pokedex/kanto -> retorna una respuesta JSON 
 

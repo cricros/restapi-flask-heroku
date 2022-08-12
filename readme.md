@@ -68,6 +68,48 @@ En caso de que se decida probar la RESTAPI desde un localhost, solo deberemos se
 
 ## Deploy en Heroku
 
-1. Para poder deployar nuestro proyecto en heroku primero debemos loguearnos, en este caso vamos a utilizar la consola de git, ya que nos permite realizar comandos bash en la misma. 
+Para poder realizar el deploy de nuestra aplicación debemos tener en consideración las siguientes cosas: 
+- Tener una cuenta con heroku
+- Tener instalado el CLI de Heroku
 
-![6](https://user-images.githubusercontent.com/89177440/184265573-c83bdf5e-b83d-46c5-8aca-5c0ea64cede1.jpg)
+En caso de no tenerlo, este es el link en donde lo podrás descargar según la plataforma que estés utilizando:
+>https://devcenter.heroku.com/articles/heroku-cli
+
+
+#### Login
+Una vez con la cuenta creada, y el CLI instalado, ahora podemos comenzar con el deploy de la aplicación en Heroku.  
+
+Como primer paso primero debemos loguearnos, en este caso vamos a utilizar la consola de git, ya que nos permite realizar comandos bash desde la en la misma. 
+
+![alt text](https://ibb.co/wyCyXcS)
+
+En caso de no ser visible, el comando es el siguiente
+ >heroku login
+
+Si el login resulta exitoso, podremos ver al final un mensaje que nos indica el correo con el cual se realizo el login (que debe corresponder a nuestra cuenta)
+
+#### Deploy
+Ahora que tenemos el login del CLI de Heroku, podemos abrir una nueva pestaña de git (recordando que estamos usando la consola como consola de bash). 
+
+Nos colocamos dentro de la consola en la ruta donde tenemos creado/copiado el proyecto. En cuando estemos sobre dicha dirección ahora hemos de colocar el siguiente parametro
+
+>heroku create [nombredeldominio]
+
+Si el dominio no está disponible la consola nos arrojara un mensaje como el siguiente
+
+> "Name [nombredeldominio] is already taken"
+
+En caso contrario de que este disponible nos aparecera el siguiente mensaje
+
+> "Creating [nombredeldominio]... done"
+
+
+![7](https://user-images.githubusercontent.com/89177440/184267700-9dfdee08-93d9-4cbd-8f45-929ef47e59ec.jpg)
+
+Hasta ahora hemos unicamente creado el dominio en donde vamos a deployar nuesta RESTAPI
+
+Como siguente paso ahora hemos de colocar el siguiente comando, y si todo es correcto veremos la siguiente pantalla
+
+>git push heroku
+
+![8](https://user-images.githubusercontent.com/89177440/184267692-4ed8ca11-8777-4170-9d28-3a3928df70e8.jpg)

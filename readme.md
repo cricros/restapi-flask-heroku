@@ -115,3 +115,20 @@ Como siguente paso ahora hemos de colocar el siguiente comando
 Si todo es correcto, entonces veremos la siguiente pantalla, y casi hasta el final el link de nuestra RESTAPI deployada en Heroku
 
 ![8](https://user-images.githubusercontent.com/89177440/184267692-4ed8ca11-8777-4170-9d28-3a3928df70e8.jpg)
+
+
+#### Cambios en heroku
+Para actualizar nuestra RESTAPI deployada, primeramente debemos actualizar el repositorio con la siguiente consecución de comandos: 
+
+>1. git add . 
+>2. git commit -m "cambios"
+>3. git push -u origin main
+
+Una vez que tengamos el repositorio actualizado ahora debemos realizar el siguiente comando desde la consola en donde tenemos el CLI de Heroku: 
+
+>git push heroku
+
+Se redezplegara nuevamente el deploy, pero ahora con los cambios actualizados. 
+
+![10](https://user-images.githubusercontent.com/89177440/184269637-ded0d0d0-d6fa-491d-aab8-62bd86db2c06.jpg)
+![11](https://user-images.githubusercontent.com/89177440/184269641-219c7a9e-ac93-4ca5-a9e1-b69a74e5ba4b.jpg)

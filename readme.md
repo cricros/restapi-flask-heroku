@@ -131,4 +131,5 @@ Una vez que tengamos el repositorio actualizado ahora debemos realizar el siguie
 Se redezplegara nuevamente el deploy, pero ahora con los cambios actualizados. 
 
 ![10](https://user-images.githubusercontent.com/89177440/184269637-ded0d0d0-d6fa-491d-aab8-62bd86db2c06.jpg)
+
 ![11](https://user-images.githubusercontent.com/89177440/184269641-219c7a9e-ac93-4ca5-a9e1-b69a74e5ba4b.jpg)

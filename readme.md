@@ -133,3 +133,18 @@ Se redezplegara nuevamente el deploy, pero ahora con los cambios actualizados.
 ![10](https://user-images.githubusercontent.com/89177440/184269637-ded0d0d0-d6fa-491d-aab8-62bd86db2c06.jpg)
 
 ![11](https://user-images.githubusercontent.com/89177440/184269641-219c7a9e-ac93-4ca5-a9e1-b69a74e5ba4b.jpg)
+
+## Pruebas
+
+En el siguiente apartado vamos a habrá un video sobre como realizar/realizaron las pruebas de la RESTAPI consumiendo la PokeAPI
+
+#### localhost
+###### GET
+En el siguiente video se explicara como realizar prubas de las APIREST con un HTTPRequest GET, solicitadas desde un RESTClient de manera local
+
+[Pruebas desde RESTClien para RESTAPIs - GET](https://youtu.be/eN5RgrfIIsg "Pruebas desde RESTClien para RESTAPIs")
+
+###### POST
+En el siguiente video se explicara como realizar prubas de las APIREST con un HTTPRequest POST, solicitadas desde un RESTClient de manera local
+[Pruebas desde RESTClien para RESTAPIs - POST](https://youtu.be/os9CTGhL0rE "Pruebas desde RESTClien para RESTAPIs")
+

@@ -146,5 +146,11 @@ En el siguiente video se explicara como realizar prubas de las APIREST con un HT
 
 ###### POST
 En el siguiente video se explicara como realizar prubas de las APIREST con un HTTPRequest POST, solicitadas desde un RESTClient de manera local
+
 [Pruebas desde RESTClien para RESTAPIs - POST](https://youtu.be/os9CTGhL0rE "Pruebas desde RESTClien para RESTAPIs")
+
+#### localhost
+###### GET
+
+
 

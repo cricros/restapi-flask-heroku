@@ -1,11 +1,26 @@
 import requests
-from flask import Flask, jsonify, request
-
+from flask import Flask, jsonify, request, redirect
 
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False
 
 #las siguientes rutas corresponden a la pokeapi
+
+@app.route('/')
+def homeRESTAPI():
+    return """<h1>Bienvenido</h1> 
+        <h2>Contamos con 4 endpoins funcionales y uno de ayuda para tus peticiones</h2>
+        <h3>/all - GET </h3>
+        <h3>/pokedex - POST y GET </h3>
+        <h3>/pokemon - POST y GET </h3>
+        <h3>/type - POST y GET </h3>
+        <h3>/restdoc</h3>
+        <p> Recuerda utilizar un restclient para las peticiones POST </p>
+"""
+
+@app.route('/restdoc')
+def docRESTAPI():
+    return redirect("https://documenter.getpostman.com/view/18771793/VUjSENtP")
 
 @app.route('/all', methods = ['GET'])
 def allPokemonGET():

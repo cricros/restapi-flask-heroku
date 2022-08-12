@@ -81,7 +81,7 @@ Una vez con la cuenta creada, y el CLI instalado, ahora podemos comenzar con el 
 
 Como primer paso primero debemos loguearnos, en este caso vamos a utilizar la consola de git, ya que nos permite realizar comandos bash desde la en la misma. 
 
-![alt text](https://ibb.co/wyCyXcS)
+![6](https://user-images.githubusercontent.com/89177440/184265573-c83bdf5e-b83d-46c5-8aca-5c0ea64cede1.jpg)
 
 En caso de no ser visible, el comando es el siguiente
  >heroku login

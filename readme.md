@@ -50,6 +50,7 @@ Las solicitudes de tipo son compatibles tanto en el localhost como en Heroku. Si
 - /pokedex - GET y POST
 - /pokemon GET y POST
 - /type GET y POST
+- /restdoc 
 
 ## Instalación local
 En caso de que se decida probar la RESTAPI desde un localhost, solo deberemos seguir las siguientes indicaciones:
@@ -142,15 +143,15 @@ En el siguiente apartado vamos a habrá un video sobre como realizar/realizaron 
 ###### GET
 En el siguiente video se explicara como realizar prubas de las APIREST con un HTTPRequest GET, solicitadas desde un RESTClient de manera local
 
-[Pruebas desde RESTClien para RESTAPIs - GET](https://youtu.be/eN5RgrfIIsg "Pruebas desde RESTClien para RESTAPIs")
+[Pruebas desde RESTClient para RESTAPIs - GET](https://youtu.be/eN5RgrfIIsg "Pruebas desde RESTClien para RESTAPIs")
 
 ###### POST
 En el siguiente video se explicara como realizar prubas de las APIREST con un HTTPRequest POST, solicitadas desde un RESTClient de manera local
 
-[Pruebas desde RESTClien para RESTAPIs - POST](https://youtu.be/os9CTGhL0rE "Pruebas desde RESTClien para RESTAPIs")
+[Pruebas desde RESTClient para RESTAPIs - POST](https://youtu.be/os9CTGhL0rE "Pruebas desde RESTClien para RESTAPIs")
 
-#### localhost
-###### GET
+#### Heroku
+###### GET y POST 
+En el siguiente video se explicara como realizar prubas de las APIREST con un HTTPRequest POST, solicitadas desde un RESTClient de manera local
 
-
-
+[Pruebas desde RESTClient consumiendo la api desde Heroku (GET Y POST)](https://youtu.be/GOrLiGcWniQ "Pruebas desde RESTClien para RESTAPIs")

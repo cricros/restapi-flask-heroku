@@ -108,8 +108,10 @@ En caso contrario de que este disponible nos aparecera el siguiente mensaje
 
 Hasta ahora hemos unicamente creado el dominio en donde vamos a deployar nuesta RESTAPI
 
-Como siguente paso ahora hemos de colocar el siguiente comando, y si todo es correcto veremos la siguiente pantalla
+Como siguente paso ahora hemos de colocar el siguiente comando
 
 >git push heroku
+
+Si todo es correcto, entonces veremos la siguiente pantalla, y casi hasta el final el link de nuestra RESTAPI deployada en Heroku
 
 ![8](https://user-images.githubusercontent.com/89177440/184267692-4ed8ca11-8777-4170-9d28-3a3928df70e8.jpg)

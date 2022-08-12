@@ -155,3 +155,4 @@ En el siguiente video se explicara como realizar prubas de las APIREST con un HT
 En el siguiente video se explicara como realizar prubas de las APIREST con un HTTPRequest POST, solicitadas desde un RESTClient de manera local
 
 [Pruebas desde RESTClient consumiendo la api desde Heroku (GET Y POST)](https://youtu.be/GOrLiGcWniQ "Pruebas desde RESTClien para RESTAPIs")
+

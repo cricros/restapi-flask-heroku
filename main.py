@@ -85,14 +85,12 @@ def pokemonType():
 @app.route('/type/<string:nametype>', methods = ['GET'])
 def pokemonTypeGET(nametype):
     """Para buscar un pokemon en especifico"""
-    name_url = f"https://pokeapi.co/api/v2/pokemon/{nametype}"
+    name_url = f"https://pokeapi.co/api/v2/type/{nametype}"
     result = requests.get(name_url)
     resultJson = result.json()
     return jsonify({
         "id":resultJson['id'],
         "name":resultJson['name'],
-        "types":resultJson['types'],
-        "stats":resultJson['stats'], 
         "game_indices":resultJson['game_indices']
     })
 

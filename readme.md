@@ -28,6 +28,16 @@ Otro punto importante que tomé en consideración para realizar la elección sob
 - ###### Gratuita
 Dado que por ahora es un desarrollo pequeño, opté por técnologías que fuera de uso gratuito para así evitar gastos que se pudieran considerar "innesarios". Esto va mas orientado en donde se realizó el deployeo de la RESTAPI. 
 
+## Diagramas
+
+#### Diagrama de flujo para peticiones GET 
+![GET](https://user-images.githubusercontent.com/89177440/184334874-3a58a481-1104-4c62-a433-19b789cb3d8e.png)
+
+
+#### Diagrama de flujo para peticiones POST
+![POST](https://user-images.githubusercontent.com/89177440/184334550-24dc55be-55ac-4a0c-a0df-c707d65a70dd.png)
+
+
 ## Endpoints generados
 
 Se generaron 4 endpoints que son complatibles con un RESTClient, las peticiones que  soportan son tanto **GET** como **POST**. 
